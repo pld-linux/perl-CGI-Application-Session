@@ -10,8 +10,8 @@ Summary(pl):	Wtyczka dodaj±ca obs³ugê sesji do CGI::Application
 Name:		perl-CGI-Application-Session
 Version:	0.03
 Release:	1
-# Same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ab8e45598fedab3710ee2c10aa0fff04
