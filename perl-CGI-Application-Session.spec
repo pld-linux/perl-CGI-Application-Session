@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Application-Session
+%define		pdir	CGI
+%define		pnam	Application-Session
 Summary:	Plugin that adds session support to CGI::Application
 Summary(pl):	Wtyczka dodaj±ca obs³ugê sesji do CGI::Application
 Name:		perl-CGI-Application-Session
