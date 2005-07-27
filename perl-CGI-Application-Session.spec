@@ -8,20 +8,20 @@
 Summary:	Plugin that adds session support to CGI::Application
 Summary(pl):	Wtyczka dodaj±ca obs³ugê sesji do CGI::Application
 Name:		perl-CGI-Application-Session
-Version:	0.03
+Version:	0.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ab8e45598fedab3710ee2c10aa0fff04
-%if %{with tests}
-BuildRequires:	perl-CGI-Application >= 3.21
-BuildRequires:	perl-CGI-Session >= 3.95
-#endif
+# Source0-md5:	0fc08e27457cca6dc9509e9086cd7951
 BuildRequires:	perl-Module-Build >= 0.20
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-CGI-Application >= 3.21
+BuildRequires:	perl-CGI-Session >= 3.95
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
