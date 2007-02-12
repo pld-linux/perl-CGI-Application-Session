@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Application-Session
 Summary:	Plugin that adds session support to CGI::Application
-Summary(pl):	Wtyczka dodaj±ca obs³ugê sesji do CGI::Application
+Summary(pl.UTF-8):   Wtyczka dodajÄ…ca obsÅ‚ugÄ™ sesji do CGI::Application
 Name:		perl-CGI-Application-Session
 Version:	0.07
 Release:	1
@@ -30,9 +30,9 @@ CGI::Application::Session seamlessly adds session support to your
 CGI::Application modules by providing a CGI::Session object that is
 accessible from anywhere in the application.
 
-%description -l pl
-CGI::Application::Session dodaje obs³ugê sesji do modu³ów
-CGI::Application poprzez dostarczenie obiektu CGI::Session dostêpnego
+%description -l pl.UTF-8
+CGI::Application::Session dodaje obsÅ‚ugÄ™ sesji do moduÅ‚Ã³w
+CGI::Application poprzez dostarczenie obiektu CGI::Session dostÄ™pnego
 z dowolnego miejsca w aplikacji.
 
 %prep
