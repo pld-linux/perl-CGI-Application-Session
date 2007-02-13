@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Application-Session
 Summary:	Plugin that adds session support to CGI::Application
-Summary(pl.UTF-8):   Wtyczka dodająca obsługę sesji do CGI::Application
+Summary(pl.UTF-8):	Wtyczka dodająca obsługę sesji do CGI::Application
 Name:		perl-CGI-Application-Session
 Version:	0.07
 Release:	1
