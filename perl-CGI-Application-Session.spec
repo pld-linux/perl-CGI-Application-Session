@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Application-Session
+%include	/usr/lib/rpm/macros.perl
 Summary:	Plugin that adds session support to CGI::Application
 Summary(pl.UTF-8):	Wtyczka dodająca obsługę sesji do CGI::Application
 Name:		perl-CGI-Application-Session
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fc08e27457cca6dc9509e9086cd7951
+URL:		http://search.cpan.org/dist/CGI-Application-Session/
 BuildRequires:	perl-Module-Build >= 0.20
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
