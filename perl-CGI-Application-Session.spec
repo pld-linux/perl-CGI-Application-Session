@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Application-Session
-%include	/usr/lib/rpm/macros.perl
 Summary:	Plugin that adds session support to CGI::Application
 Summary(pl.UTF-8):	Wtyczka dodająca obsługę sesji do CGI::Application
 Name:		perl-CGI-Application-Session
